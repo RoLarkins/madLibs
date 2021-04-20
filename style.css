@@ -2,6 +2,13 @@ body{
 
     background-color: darksalmon;
 
+align-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    color: lightcyan;
+    list-style-type: circle;
+    list-style-type: center;
+    font-size: 25px;
 }
 
 h1{
@@ -10,29 +17,17 @@ h1{
     font-size: 100px;
 
     text-align: center;
-    color
+    color:lightcyan;
     
 }
 
-body{
-    align-content: flex-start;
-    flex-direction: column;
-    text-align: center;
-    color: lightcyan;
-    list-style-type: circle;
-    list-style-position: inside;
-    font-size: 25px;
+
+
+ul{
+    list-style-type: none;
+ 
 }
-
-container{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    display: grid;
-
-
-}
+ 
 
 
 
